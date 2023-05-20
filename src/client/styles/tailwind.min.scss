@@ -1,0 +1,93 @@
+/** @format */
+
+/* HEADER */
+
+header {
+	height: 300px;
+}
+.underHeader {
+	background-color: #0f4c75;
+	height: 200px;
+}
+.searchpart {
+	padding: 0;
+}
+.icon {
+	font-size: 2rem;
+}
+/* UTILITIES */
+
+body {
+	background-color: #fff;
+}
+
+h1 {
+	font-family: "Dosis", sans-serif;
+	font-size: 1rem;
+	color: #fff;
+	padding: 30px 10px 30px 10px;
+}
+
+h2 {
+	font-family: "Dosis", sans-serif;
+	font-size: 1rem;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 20px;
+	color: #0f4c75;
+}
+
+p {
+	font-family: "Dosis", sans-serif;
+	font-weight: 700;
+	color: #0f4c75;
+	font-size: 1rem;
+	font-style: bold;
+}
+
+input {
+	font-family: "Dosis", sans-serif;
+	font-weight: 700;
+	font-size: 1rem;
+}
+
+label {
+	font-family: "Dosis", sans-serif;
+	font-size: 1.5rem;
+	padding-left: 30px;
+}
+input {
+	padding-left: 30px;
+}
+.hide {
+	display: none;
+}
+
+@media (min-width: 668px) {
+	h1 {
+		font-size: 2.5rem;
+		padding: 5px;
+	}
+	h2 {
+		font-size: 3rem;
+		padding: 10px;
+	}
+	.searchpart label {
+		font-size: 1rem;
+	}
+	header {
+		height: 400px;
+		width: auto;
+	}
+	.underHeader {
+		height: 300px;
+		margin-bottom: 3rem;
+	}
+	.searchpart {
+		margin: 0;
+		padding: 0;
+	}
+	footer p {
+		font-size: 2rem;
+	}
+}
